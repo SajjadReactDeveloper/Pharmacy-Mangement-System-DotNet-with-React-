@@ -1,0 +1,174 @@
+.navbarss {
+    height: 78px;
+    border-bottom: 0.5px solid rgb(231, 228, 228);
+    display: flex;
+    align-items: center;
+    font-style: 14px;
+    color: #555;
+    background-color: rgb(1, 54, 23);
+    background-color: #ef9273;
+    background-color: #2b6777; 
+    background-color: #A0AECD;
+    background-color: #1A2238;
+    background-color: #FB8122;
+    background-color: #051622;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    color: #fff;
+    width: 300px;
+}
+
+input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    /* &::placeholder {
+        font-style: 12px;
+        color: #fff;
+    } */
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.itemss {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    position: relative;   
+}
+
+.icon {
+    font-style: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.counter {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+.notifi-box {
+    width: 400px;
+    position: absolute;
+    top: 36px;
+    right: 0px;
+    background-color: #fff;
+    z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.notifi-box h2 {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    justify-content: flex-start;
+    border-bottom: 1px solid #eee;
+    color: #000;
+    margin-top: 0;
+    padding-top: 15px;
+}
+
+.notifi-box img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.notifi-box h2 span {
+    color: #f00;
+    margin-left: 5px;
+}
+
+.notifi-item {
+    display: flex;
+    border-bottom: 1px solid #eee;
+    padding-left: 5px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.notifi-item:hover {
+    background-color: #eee;
+}
+
+.notifi-item .text h4 {
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.notifi-item .text .ptext {
+    color: #000;
+    font-size: 12px;
+}
+
+.text {
+    margin-bottom: 10px;
+}
+
+.spanText {
+    color: #000;
+    font-size: 12px;
+    margin-left: 0;
+}
+
+.navlogo{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarLogo{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.mainItem:hover{
+    color: gray;
+    cursor: pointer;
+}
